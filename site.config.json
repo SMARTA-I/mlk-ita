@@ -1,0 +1,20 @@
+{
+  "name": "mlk-ita",
+  "template_type": "business",
+  "tone": "formal",
+  "language": "mn",
+  "languages": ["mn"],
+  "sections": ["about", "services", "product", "contact"],
+  "client_portal_id": "B6PnjVLI0YieSXZAqFG2W",
+  "erxes_endpoint": "https://marta.next.erxes.io/gateway/graphql",
+  "erxes_app_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRQb3J0YWxJZCI6IkI2UG5qVkxJMFlpZVNYWkFxRkcyVyIsImlhdCI6MTc4MTA5MTgwNX0.HOYwiiFxrZ2Agv3GOBl5QM9xQ9yjJ9XgmYLIPe3JFTw",
+  "erxes_cms_id": "6a294fc3aaeac693c822c5c6",
+  "color_hint": null,
+  "extra_notes": "Үйлдвэрүүд бүртгэнэ, үйлдвэрүүд дотор шугам тоног төхөөрөмжүүд бүртгэнэ. Тоног төхөөрөмж бүр өөрийн qr кодтой байна. эд ангитай сэлбэгтэй байна. тухайн шугам тоног төхөөрөмж бүрийн худалдаж авсан огноо, ашигласан хугацаа, засвар үйлчилгээний тоо байна. ашиглах хүмүүс нь засварчид инженерүүд байна. засварыг эхлүүлэх, дуусгах, сольсон сэлбэгийг сонгож тэмдэглэх, засварын дугаар үүсгэх, засварын дугаараар санхүү рүү илгээж зарлага гаргах, тайлан хэсэгт бүх засвар үйлчилгээний тайлангууд бүрэн байх, автопарк дээр мөн адил ажиллах",
+  "deploy_target": "github",
+  "ui_source": "website",
+  "ui_source_ref": "https://www.kfcmongolia.com/index",
+  "design_strategy": "copy-site",
+  "reference_url": "https://www.kfcmongolia.com/index",
+  "competitor_urls": []
+}

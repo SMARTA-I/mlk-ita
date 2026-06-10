@@ -1,0 +1,27 @@
+{
+  "site": "www.kfcmongolia.com",
+  "start_url": "https://www.kfcmongolia.com/index",
+  "audited_at": "2026-06-10T12:00:16.338Z",
+  "locales": [],
+  "audited_pages": [
+    {
+      "url": "https://www.kfcmongolia.com/index",
+      "pathname": "/index",
+      "title": "KFC Монгол",
+      "description": null,
+      "locale": null,
+      "html_lang": null,
+      "headings": [],
+      "cta_labels": [],
+      "text_blocks": [],
+      "links": [],
+      "contact": {
+        "emails": [],
+        "phones": []
+      },
+      "source": "seed"
+    }
+  ],
+  "discovered_pages": [],
+  "skipped_pages": []
+}

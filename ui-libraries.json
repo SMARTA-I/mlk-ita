@@ -1,0 +1,47 @@
+{
+  "motion_level": 2,
+  "visual_direction": "professional-blue",
+  "packages": [
+    "framer-motion",
+    "clsx",
+    "tailwind-merge",
+    "lucide-react",
+    "next-themes"
+  ],
+  "shadcn_components": [
+    "button",
+    "card",
+    "input",
+    "dialog",
+    "dropdown-menu",
+    "navigation-menu",
+    "sheet",
+    "table",
+    "tabs",
+    "textarea",
+    "badge",
+    "separator",
+    "skeleton"
+  ],
+  "custom_components": [
+    "Header",
+    "Footer",
+    "HeroSection",
+    "FeatureCard",
+    "EquipmentCard",
+    "QRScanner",
+    "ServiceCard",
+    "ContactForm",
+    "EmergencyButton",
+    "StatsBar"
+  ],
+  "animation_config": {
+    "core_library": "framer-motion",
+    "scroll_library": null,
+    "text_animation": "custom",
+    "page_transition": "framer",
+    "ambient_system": "css",
+    "micro_interactions": "framer-motion",
+    "gsap_plugins": []
+  }
+}

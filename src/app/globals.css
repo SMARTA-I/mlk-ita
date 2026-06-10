@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1A1A2E;
+  --primary: #1E3A5F;
+  --primary-light: #2D5A8E;
+  --accent: #FF6B35;
+  --text-secondary: #4A5568;
+  --bg-light: #F0F4F8;
+  --bg-card: #F7FAFC;
+  --border: #E2E8F0;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-light: var(--primary-light);
+  --color-accent: var(--accent);
+  --color-text-secondary: var(--text-secondary);
+  --color-bg-light: var(--bg-light);
+  --color-bg-card: var(--bg-card);
+  --color-border: var(--border);
+  --font-sans: var(--font-inter);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  overscroll-behavior-y: none;
+}
+
+/* PWA Standalone Mode Styles */
+@supports (padding-top: env(safe-area-inset-top)) {
+  body {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+}
+
+/* Prevent text selection for app-like feel */
+input, textarea {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Hide scrollbar for cleaner app look */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+/* Mobile touch optimization */
+button, a {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Standalone mode specific styles */
+@media all and (display-mode: standalone) {
+  body {
+    padding-top: env(safe-area-inset-top);
+  }
+  
+  /* Hide browser UI elements */
+  header {
+    padding-top: max(1rem, env(safe-area-inset-top));
+  }
+}
